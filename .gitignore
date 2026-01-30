@@ -1,0 +1,16 @@
+# Quarto
+.quarto/
+_site/
+
+# Cache
+.cache/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+
+# Environment variables
+.env
+
