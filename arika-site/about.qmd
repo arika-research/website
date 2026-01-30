@@ -1,0 +1,26 @@
+---
+title: ""
+---
+
+:::: {.about-wrap}
+
+::: {.about-section}
+## Problem
+
+Recent advances in biotechnology and AI have accelerated modeling and discovery workflows.
+However, pipeline reliability depends on upstream infrastructure that is often under-specified or inconsistently designed.
+
+In particular, RNA-derived data representations can introduce hidden assumptions, increase validation overhead, and slow development in ways that are frequently overlooked.
+:::
+
+::: {.about-section}
+## Our Focus
+
+Arika Research is an infrastructure company focused on foundational challenges in AI-enabled biology.
+We build systems that act as an AI copilot for biological data infrastructure—guiding how data is represented, aligned, and validated before it reaches downstream models.
+
+Our initial work focuses on RNA-derived data, where representational ambiguity and preprocessing variability significantly affect AI performance.
+Rather than introducing new predictive models, Arika operates upstream: formalizing representation semantics, alignment rules, and validation mechanisms that allow AI systems to reason over biological data more reliably.
+:::
+
+::::

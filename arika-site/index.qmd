@@ -1,0 +1,33 @@
+---
+title: ""
+title-block: false
+---
+
+
+:::: {.hero}
+
+# Understand complex biology through deep research infrastructure
+
+::::
+
+:::: {.grid style="margin-top: 2.25rem;"}
+
+::: {.cardx .feature-main style="grid-column: span 6;"}
+### Work with Arika
+
+We help teams building computational biology systems remove friction from their workflows. Request a demo or start a conversation.
+
+[Get in touch](mailto:arianamondiri@arikaresearch.com){.btn .btn-soft}
+
+:::
+
+::: {.cardx style="grid-column: span 6;"}
+### About Arika
+
+Arika Research is a deep-infrastructure company building foundational systems for complex biology, helping teams work with biological data more effectively.
+  
+
+[Read more](docs.html){.btn .btn-soft}
+:::
+
+::::
