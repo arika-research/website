@@ -422,15 +422,31 @@ main.content, .content {
 }
 
 /* ===================== Responsive ===================== */
-
-@media (max-width: 980px) {
-  .hero { padding: 6.5rem 0 1.5rem 0; }
-  .grid { grid-template-columns: repeat(6, 1fr); }
-}
-
+/* ===================== Mobile fixes ===================== */
 @media (max-width: 640px) {
-  .hero h1 { font-size: clamp(2.2rem, 8vw, 3.0rem); }
-  .grid { grid-template-columns: repeat(1, 1fr); }
+
+  /* Stop the “pull up” tricks on small screens */
+  .hero {
+    margin-top: 0 !important;
+    padding: 2.5rem 0 1.25rem 0 !important;
+  }
+
+  .home-cards {
+    margin-top: 1rem !important;   /* cards sit under logo cleanly */
+  }
+
+  /* Make the brand image scale sanely on phones */
+  .hero-logo {
+    max-width: min(92vw, 420px) !important;
+    height: auto !important;
+    margin: 1.25rem auto 1.25rem auto !important;
+    display: block !important;
+  }
+
+  /* Prevent cards from feeling cramped */
+  .cardx {
+    padding: 1.25rem 1.25rem !important;
+  }
 }
 
 
