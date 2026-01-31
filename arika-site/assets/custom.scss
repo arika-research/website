@@ -73,10 +73,88 @@ main.content, .content {
 .hero {
   position: relative;
   padding: 1rem 0 2.5rem 0;
-  max-width: 62rem;
   margin: 0 auto;
   text-align: center;
+  margin-top: -14.5rem;
 }
+
+.hero h1 {
+  font-size: clamp(2.8rem, 5.4vw, 4.4rem);
+  font-weight: 680;
+  line-height: 1.04;
+  letter-spacing: -0.025em;
+  margin-top: -1rem;   /* try 0.5rem – 1rem */
+
+  /* Soft futuristic gradient text */
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    color-mix(in srgb, $accent 55%, #ffffff) 85%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Depth */
+  text-shadow:
+    0 12px 40px rgba(0,0,0,0.65),
+    0 0 80px color-mix(in srgb, $accent 18%, transparent);
+}
+
+/* Remove extra top space above hero */
+.page-layout-article main.content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+
+
+.home-cards {
+  margin-top: -16rem;   /* try -2rem to -6rem */
+}
+
+/* Navbar logo only, no text */
+/* REMOVE navbar title text completely */
+/* --- NAVBAR: logo-only, properly sized --- */
+
+/* --- NAVBAR: logo-only, correct sizing --- */
+
+/* Navbar title as logo */
+/* ================================
+   NAVBAR: title-as-logo (FINAL)
+   ================================ */
+
+/* Make navbar taller so logo has room */
+.navbar {
+  min-height: 88px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Kill all text metrics that shrink the title */
+.navbar-brand {
+  font-size: 0 !important;     /* THIS IS THE KEY */
+  line-height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* Remove Quarto's centering container constraint */
+.navbar-brand-container {
+  max-width: none !important;
+}
+
+/* Force logo size */
+.navbar-logo {
+  height: 84px !important;     /* YOU WILL SEE THIS CHANGE */
+  width: auto !important;
+  display: block !important;
+}
+
+
+
 
 /* FULL-BLEED glow field */
 .hero::before {
@@ -133,40 +211,9 @@ main.content, .content {
 
 
 
-.hero h1 {
-  font-size: clamp(2.8rem, 5.4vw, 4.4rem);
-  font-weight: 680;
-  line-height: 1.04;
-  letter-spacing: -0.025em;
-
-  /* Soft futuristic gradient text */
-  background: linear-gradient(
-    180deg,
-    #ffffff 0%,
-    color-mix(in srgb, $accent 55%, #ffffff) 85%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  /* Depth */
-  text-shadow:
-    0 12px 40px rgba(0,0,0,0.65),
-    0 0 80px color-mix(in srgb, $accent 18%, transparent);
-}
 
 
 
-
-/* Sticky / always-visible navbar */
-.navbar {
-  position: sticky;
-  top: 0;
-  z-index: 1000;              /* above hero backgrounds */
-  background: rgba(15,15,18,0.72);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-}
 
 
 

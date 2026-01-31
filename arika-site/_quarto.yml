@@ -1,10 +1,12 @@
 project:
   type: website
-  output-dir: _site
-
+  output-dir: docs
 website:
-  title: "Arika Research"
+  title: "Arika Research"   # browser title / SEO
   navbar:
+    title: "<img src='assets/img/arika_transparent.png'
+               alt='Arika Research'
+               style='height:80px; width:auto;'>"
     background: "#0f0f12"
     foreground: "#e7e7ea"
     right:
@@ -16,6 +18,7 @@ website:
         href: demo.qmd
       - text: Docs
         href: docs.qmd
+
 
   page-footer:
     left: "© Arika Research"

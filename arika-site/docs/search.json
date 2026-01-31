@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "docs.html",
+    "href": "docs.html",
+    "title": "Docs",
+    "section": "",
+    "text": "Supporting documents describing Arika’s infrastructure and system design.\n\nExecutive summary (PDF)\nTechnical note (PDF)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Arika Research",
+    "section": "",
+    "text": "Work with Arika\nWe help teams building computational biology systems remove friction from their workflows. Request a demo or start a conversation.\nGet in touch\n\n\nAbout Arika\nArika Research is a deep-infrastructure company building foundational systems for complex biology, helping teams work with biological data more effectively.\nRead more"
+  },
+  {
+    "objectID": "demo.html",
+    "href": "demo.html",
+    "title": "Arika Research",
+    "section": "",
+    "text": "A functional prototype is currently available.\nThis demo illustrates how Arika operates upstream of modeling—standardizing biological data representations, validating assumptions, and supporting downstream reasoning."
+  },
+  {
+    "objectID": "demo.html#product-demo",
+    "href": "demo.html#product-demo",
+    "title": "Arika Research",
+    "section": "",
+    "text": "A functional prototype is currently available.\nThis demo illustrates how Arika operates upstream of modeling—standardizing biological data representations, validating assumptions, and supporting downstream reasoning."
+  },
+  {
+    "objectID": "demo.html#demo-overview",
+    "href": "demo.html#demo-overview",
+    "title": "Arika Research",
+    "section": "Demo overview",
+    "text": "Demo overview\nThis short walkthrough demonstrates how Arika works with real biological data to:\n\ntransform raw inputs into standardized, validated representations,\nsurface hidden assumptions early in the pipeline,\nsupport reasoning and configuration decisions through an AI copilot."
+  },
+  {
+    "objectID": "demo.html#access",
+    "href": "demo.html#access",
+    "title": "Arika Research",
+    "section": "Access",
+    "text": "Access\nIf you’d like to see the prototype in action or discuss a specific use case, get in touch.\nRequest access"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Arika Research",
+    "section": "",
+    "text": "Recent advances in biotechnology and AI have accelerated modeling and discovery workflows. However, pipeline reliability depends on upstream infrastructure that is often under-specified or inconsistently designed.\nIn particular, RNA-derived data representations can introduce hidden assumptions, increase validation overhead, and slow development in ways that are frequently overlooked.\n\n\n\nArika Research is an infrastructure company focused on foundational challenges in AI-enabled biology. We build systems that act as an AI copilot for biological data infrastructure—guiding how data is represented, aligned, and validated before it reaches downstream models.\nOur initial work focuses on RNA-derived data, where representational ambiguity and preprocessing variability significantly affect AI performance. Rather than introducing new predictive models, Arika operates upstream: formalizing representation semantics, alignment rules, and validation mechanisms that allow AI systems to reason over biological data more reliably."
+  },
+  {
+    "objectID": "about.html#problem",
+    "href": "about.html#problem",
+    "title": "Arika Research",
+    "section": "",
+    "text": "Recent advances in biotechnology and AI have accelerated modeling and discovery workflows. However, pipeline reliability depends on upstream infrastructure that is often under-specified or inconsistently designed.\nIn particular, RNA-derived data representations can introduce hidden assumptions, increase validation overhead, and slow development in ways that are frequently overlooked."
+  },
+  {
+    "objectID": "about.html#our-focus",
+    "href": "about.html#our-focus",
+    "title": "Arika Research",
+    "section": "",
+    "text": "Arika Research is an infrastructure company focused on foundational challenges in AI-enabled biology. We build systems that act as an AI copilot for biological data infrastructure—guiding how data is represented, aligned, and validated before it reaches downstream models.\nOur initial work focuses on RNA-derived data, where representational ambiguity and preprocessing variability significantly affect AI performance. Rather than introducing new predictive models, Arika operates upstream: formalizing representation semantics, alignment rules, and validation mechanisms that allow AI systems to reason over biological data more reliably."
+  }
+]

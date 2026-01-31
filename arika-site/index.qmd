@@ -6,11 +6,12 @@ title-block: false
 
 :::: {.hero}
 
-# Understand complex biology through deep research infrastructure
+![](assets/img/Arika.png){.hero-logo}
+
 
 ::::
 
-:::: {.grid style="margin-top: 2.25rem;"}
+:::: {.grid .home-cards}
 
 ::: {.cardx .feature-main style="grid-column: span 6;"}
 ### Work with Arika
