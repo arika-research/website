@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "Arika Research"   # browser title / SEO
+  navbar:
+    title: "<img src='/assets/img/arika_transparent.png'
+               alt='Arika Research'
+               style='height:80px; width:auto;'>"
+    background: "#0f0f12"
+    foreground: "#e7e7ea"
+    right:
+      - text: Home
+        href: index.qmd
+      - text: About
+        href: about.qmd
+      - text: Demo
+        href: demo.qmd
+      #  - text: Docs
+      #    href: docs.qmd
+      - text: Articles
+        href: Articles/index.qmd
+
+
+  page-footer:
+    left: "© Arika Research"
+    right: "Built with Quarto"
+
+format:
+  html:
+    theme:
+      - darkly
+      - assets/custom.scss
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-in-header:
+      - assets/head.html
+
+execute:
+  freeze: auto

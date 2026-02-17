@@ -1,0 +1,517 @@
+/*-- scss:defaults --*/
+
+/* Charcoal dark system (neutral, not blue) */
+$bg: #0f0f12;        /* main background */
+$panel: #15161a;     /* panels / sections */
+$text: #e7e7ea;      /* primary text */
+$muted: #a4a6ad;     /* secondary text */
+
+/* Accent color — CHANGE ONLY THIS LINE */
+$accent: #4da3ff;    /* electric cobalt blue */
+
+
+/*-- scss:rules --*/
+
+/* ===================== Base ===================== */
+
+:root {
+  /* subtle “tech” polish */
+  --radius-xl: 22px;
+  --radius-lg: 18px;
+}
+
+body {
+  padding-top: 0 !important;
+  background: radial-gradient(1200px 600px at 20% 0%, rgba(77,163,255,0.10), transparent 55%),
+              radial-gradient(900px 500px at 90% 10%, rgba(77,163,255,0.06), transparent 60%),
+              $bg;
+  color: $text;
+  font-feature-settings: "ss01", "ss02";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
+}
+
+a { color: $accent; }
+a:hover { opacity: 0.92; }
+
+p {
+  color: color-mix(in srgb, $text 78%, transparent);
+}
+
+h1, h2, h3 {
+  font-weight: 650;
+  letter-spacing: -0.02em;
+}
+
+/* constrain the main content width a bit more (feels premium) */
+main.content, .content {
+  max-width: 70rem;
+}
+
+/* Quarto uses Headroom to auto-hide the navbar on scroll.
+   Force it to stay visible. */
+.headroom,
+.headroom--pinned,
+.headroom--unpinned {
+  transform: translateY(0) !important;
+}
+
+.headroom {
+  position: sticky !important;  /* keep it sticky even if Headroom sets fixed */
+  top: 0 !important;
+  z-index: 1000;
+}
+
+
+/* ===================== Hero ===================== */
+
+
+
+/* ---------- Futuristic hero headline only ---------- */
+
+/* Keep hero content centered, BUT let background go full width */
+.hero {
+  position: relative;
+  padding: 1rem 0 2.5rem 0;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: -14.5rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.8rem, 5.4vw, 4.4rem);
+  font-weight: 680;
+  line-height: 1.04;
+  letter-spacing: -0.025em;
+  margin-top: -1rem;   /* try 0.5rem – 1rem */
+
+  /* Soft futuristic gradient text */
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    color-mix(in srgb, $accent 55%, #ffffff) 85%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Depth */
+  text-shadow:
+    0 12px 40px rgba(0,0,0,0.65),
+    0 0 80px color-mix(in srgb, $accent 18%, transparent);
+}
+
+/* Remove extra top space above hero */
+.page-layout-article main.content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+
+
+.home-cards {
+  margin-top: -16rem;   /* try -2rem to -6rem */
+}
+
+/* Navbar logo only, no text */
+/* REMOVE navbar title text completely */
+/* --- NAVBAR: logo-only, properly sized --- */
+
+/* --- NAVBAR: logo-only, correct sizing --- */
+
+/* Navbar title as logo */
+/* ================================
+   NAVBAR: title-as-logo (FINAL)
+   ================================ */
+
+/* Make navbar taller so logo has room */
+.navbar {
+  min-height: 88px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Kill all text metrics that shrink the title */
+.navbar-brand {
+  font-size: 0 !important;     /* THIS IS THE KEY */
+  line-height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* Remove Quarto's centering container constraint */
+.navbar-brand-container {
+  max-width: none !important;
+}
+
+/* Force logo size */
+.navbar-logo {
+  height: 84px !important;     /* YOU WILL SEE THIS CHANGE */
+  width: auto !important;
+  display: block !important;
+}
+
+
+
+
+/* FULL-BLEED glow field */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: -3rem;
+  bottom: -2rem;
+
+  /* full viewport width centered behind the hero */
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+
+  pointer-events: none;
+  background:
+    radial-gradient(
+      1100px 420px at 50% 15%,
+      color-mix(in srgb, $accent 22%, transparent),
+      transparent 62%
+    ),
+    radial-gradient(
+      900px 420px at 75% 25%,
+      rgba(160, 90, 255, 0.16),
+      transparent 70%
+    );
+  opacity: 0.9;
+  z-index: -1;
+}
+
+/* FULL-BLEED scanline texture */
+.hero::after {
+  content: "";
+  position: absolute;
+  top: -2rem;
+  bottom: -2rem;
+
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+
+  pointer-events: none;
+  background:
+    repeating-linear-gradient(
+      0deg,
+      rgba(255,255,255,0.035),
+      rgba(255,255,255,0.035) 1px,
+      transparent 1px,
+      transparent 9px
+    );
+  opacity: 0.16;
+  mask-image: radial-gradient(circle at 50% 30%, black 35%, transparent 78%);
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* if you later add a subhead back, it will look good */
+.subhead {
+  margin-top: 1rem;
+  color: $muted;
+  font-size: 1.12rem;
+  line-height: 1.6;
+  max-width: 52rem;
+}
+
+/* optional “kicker” (you can delete from index, but styling stays) */
+.kicker {
+  display: inline-block;
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, $accent 14%, transparent);
+  border: 1px solid color-mix(in srgb, $accent 36%, transparent);
+  color: color-mix(in srgb, $text 92%, transparent);
+  font-size: 0.95rem;
+}
+
+/* ===================== Buttons ===================== */
+
+.btn-accent {
+  background: linear-gradient(180deg,
+    color-mix(in srgb, $accent 95%, white 5%),
+    color-mix(in srgb, $accent 90%, black 10%)
+  );
+  border: 1px solid color-mix(in srgb, $accent 55%, transparent);
+  color: #0b0d10;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 0.75rem 1.15rem;
+  box-shadow:
+    0 10px 30px rgba(0,0,0,0.45),
+    0 0 0 4px rgba(77,163,255,0.12);
+}
+
+.btn-accent:hover {
+  filter: brightness(1.06);
+  transform: translateY(-1px);
+}
+
+.btn-soft {
+  border-radius: 999px;
+  padding: 0.75rem 1.15rem;
+  border: 1px solid rgba(255,255,255,0.14);
+  color: color-mix(in srgb, $text 92%, transparent);
+  background: rgba(255,255,255,0.03);
+  backdrop-filter: blur(8px);
+}
+
+.btn-soft:hover {
+  background: rgba(255,255,255,0.06);
+  transform: translateY(-1px);
+}
+
+/* ===================== Layout grid ===================== */
+
+.grid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: stretch;
+}
+
+
+
+
+
+
+
+/* ===================== Cards (futuristic) ===================== */
+
+.cardx {
+  position: relative;
+  border-radius: var(--radius-lg);
+  padding: 1.6rem 1.65rem;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+  border: 1px solid rgba(255,255,255,0.12);
+  backdrop-filter: blur(10px);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.08),
+    0 18px 50px rgba(0,0,0,0.55);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  overflow: hidden;
+}
+
+/* subtle “sheen” */
+.cardx::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  pointer-events: none;
+  background:
+    radial-gradient(900px 240px at 10% 0%,
+      color-mix(in srgb, $accent 22%, transparent),
+      transparent 60%);
+  opacity: 0.55;
+}
+
+/* thin edge glow on hover */
+.cardx::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background:
+    linear-gradient(120deg,
+      transparent 30%,
+      color-mix(in srgb, $accent 22%, transparent),
+      transparent 70%);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.cardx:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, $accent 32%, rgba(255,255,255,0.12));
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.10),
+    0 26px 70px rgba(0,0,0,0.65);
+}
+
+.cardx:hover::after { opacity: 1; }
+
+.feature-main {
+  background:
+    radial-gradient(900px 300px at 0% 0%,
+      color-mix(in srgb, $accent 22%, transparent),
+      rgba(255,255,255,0.02) 55%),
+    linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+}
+
+/* card typography */
+.cardx h3 {
+  margin: 0 0 0.55rem 0;
+  font-size: 1.15rem;
+  letter-spacing: -0.02em;
+}
+
+.cardx p {
+  margin: 0;
+  color: color-mix(in srgb, $text 72%, transparent);
+  line-height: 1.55;
+}
+
+.cardx .btn {
+  margin-top: 0.95rem;
+}
+/* ---------------- Card links (non-button) ---------------- */
+
+/* Make inline links feel editorial, not CTA */
+.cardx a:not(.btn) {
+  color: color-mix(in srgb, $text 78%, transparent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255,255,255,0.18);
+  padding-bottom: 1px;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Subtle accent on hover only */
+.cardx a:not(.btn):hover {
+  color: $accent;
+  border-bottom-color: color-mix(in srgb, $accent 60%, transparent);
+}
+
+
+
+
+
+
+
+/* ===================== Optional dividers (safe to keep) ===================== */
+
+.glow {
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in srgb, $accent 85%, transparent),
+    transparent
+  );
+  margin: 2.5rem 0 1.5rem 0;
+  opacity: 0.55;
+}
+
+.section-divider {
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in srgb, $accent 60%, transparent),
+    transparent
+  );
+  margin: 3rem 0 2rem 0;
+}
+
+/* ===================== Responsive ===================== */
+/* ===================== Mobile fixes ===================== */
+@media (max-width: 640px) {
+
+  /* Stop the “pull up” tricks on small screens */
+  .hero {
+    margin-top: 0 !important;
+    padding: 2.5rem 0 1.25rem 0 !important;
+  }
+
+  .home-cards {
+    margin-top: 1rem !important;   /* cards sit under logo cleanly */
+  }
+
+  /* Make the brand image scale sanely on phones */
+  .hero-logo {
+    max-width: min(92vw, 420px) !important;
+    height: auto !important;
+    margin: 1.25rem auto 1.25rem auto !important;
+    display: block !important;
+  }
+
+  /* Prevent cards from feeling cramped */
+  .cardx {
+    padding: 1.25rem 1.25rem !important;
+  }
+}
+
+
+
+
+
+
+
+
+/* ===================== ABOUT PAGE ONLY ===================== */
+body.page-about {
+
+  /* tighten layout so it feels intentional */
+  main.content {
+    max-width: 62rem;
+  }
+
+  /* soften the overall background so cards stand out */
+  background:
+    radial-gradient(900px 420px at 50% 0%,
+      color-mix(in srgb, $accent 14%, transparent),
+      transparent 65%),
+    $bg;
+}
+
+/* ----- Page title ----- */
+body.page-about h1.title {
+  font-size: clamp(2.2rem, 3.2vw, 2.9rem);
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  margin-bottom: 2rem;
+
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    color-mix(in srgb, $accent 45%, #ffffff) 85%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+/* ===================== Articles POST (reading mode) ONLY ===================== */
+body.Articles-unified {
+
+  /* Remove the blue glow background for readability */
+  background: $bg !important;   // plain charcoal, no accent glows
+
+  /* Make text slightly calmer (optional) */
+  p { color: color-mix(in srgb, $text 82%, transparent) !important; }
+
+  /* Optional: reduce link “neon” feeling inside the article only */
+  main.content a {
+    color: color-mix(in srgb, $text 82%, transparent) !important;
+    text-decoration-color: rgba(255,255,255,0.22);
+  }
+  main.content a:hover {
+    color: $text !important;
+    opacity: 1 !important;
+  }
+
+  /* Optional: TOC active link not blue */
+  #TOC .nav-link.active,
+  #TOC .nav-link:hover {
+    color: color-mix(in srgb, $text 86%, transparent) !important;
+  }
+}

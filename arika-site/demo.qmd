@@ -1,0 +1,25 @@
+---
+title: ""
+---
+
+## Product demo
+
+A functional prototype is currently available.  
+This demo illustrates how Arika operates upstream of modeling—standardizing biological data representations, validating assumptions, and supporting downstream reasoning.
+
+
+## Demo overview
+
+This short walkthrough demonstrates how Arika works with real biological data to:
+
+- transform raw inputs into standardized, validated representations,
+- surface hidden assumptions early in the pipeline,
+- support reasoning and configuration decisions through an AI copilot.
+
+
+
+## Access
+
+If you’d like to see the prototype in action or discuss a specific use case, get in touch.
+
+[Request access](mailto:arianamondiri@arikaresearch.com){.btn .btn-accent}

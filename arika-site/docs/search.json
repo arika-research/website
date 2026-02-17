@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "docs.html",
+    "href": "docs.html",
+    "title": "Docs",
+    "section": "",
+    "text": "Supporting documents describing Arika’s infrastructure and system design.\n\nExecutive summary (PDF)\nTechnical note (PDF)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Arika Research",
+    "section": "",
+    "text": "Work with Arika\nWe help teams building computational biology systems remove friction from their workflows. Request a demo or start a conversation.\nGet in touch\n\n\nAbout Arika\nArika Research is a deep-infrastructure company building foundational systems for complex biology, helping teams work with biological data more effectively.\nRead more"
+  },
+  {
+    "objectID": "demo.html",
+    "href": "demo.html",
+    "title": "Arika Research",
+    "section": "",
+    "text": "A functional prototype is currently available.\nThis demo illustrates how Arika operates upstream of modeling—standardizing biological data representations, validating assumptions, and supporting downstream reasoning."
+  },
+  {
+    "objectID": "demo.html#product-demo",
+    "href": "demo.html#product-demo",
+    "title": "Arika Research",
+    "section": "",
+    "text": "A functional prototype is currently available.\nThis demo illustrates how Arika operates upstream of modeling—standardizing biological data representations, validating assumptions, and supporting downstream reasoning."
+  },
+  {
+    "objectID": "demo.html#demo-overview",
+    "href": "demo.html#demo-overview",
+    "title": "Arika Research",
+    "section": "Demo overview",
+    "text": "Demo overview\nThis short walkthrough demonstrates how Arika works with real biological data to:\n\ntransform raw inputs into standardized, validated representations,\nsurface hidden assumptions early in the pipeline,\nsupport reasoning and configuration decisions through an AI copilot."
+  },
+  {
+    "objectID": "demo.html#access",
+    "href": "demo.html#access",
+    "title": "Arika Research",
+    "section": "Access",
+    "text": "Access\nIf you’d like to see the prototype in action or discuss a specific use case, get in touch.\nRequest access"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Arika Research",
+    "section": "",
+    "text": "Recent advances in biotechnology and AI have accelerated modeling and discovery workflows. However, pipeline reliability depends on upstream infrastructure that is often under-specified or inconsistently designed.\nIn particular, RNA-derived data representations can introduce hidden assumptions, increase validation overhead, and slow development in ways that are frequently overlooked.\n\n\n\nArika Research is an infrastructure company focused on foundational challenges in AI-enabled biology. We build systems that act as an AI copilot for biological data infrastructure—guiding how data is represented, aligned, and validated before it reaches downstream models.\nOur initial work focuses on RNA-derived data, where representational ambiguity and preprocessing variability significantly affect AI performance. Rather than introducing new predictive models, Arika operates upstream: formalizing representation semantics, alignment rules, and validation mechanisms that allow AI systems to reason over biological data more reliably."
+  },
+  {
+    "objectID": "about.html#problem",
+    "href": "about.html#problem",
+    "title": "Arika Research",
+    "section": "",
+    "text": "Recent advances in biotechnology and AI have accelerated modeling and discovery workflows. However, pipeline reliability depends on upstream infrastructure that is often under-specified or inconsistently designed.\nIn particular, RNA-derived data representations can introduce hidden assumptions, increase validation overhead, and slow development in ways that are frequently overlooked."
+  },
+  {
+    "objectID": "about.html#our-focus",
+    "href": "about.html#our-focus",
+    "title": "Arika Research",
+    "section": "",
+    "text": "Arika Research is an infrastructure company focused on foundational challenges in AI-enabled biology. We build systems that act as an AI copilot for biological data infrastructure—guiding how data is represented, aligned, and validated before it reaches downstream models.\nOur initial work focuses on RNA-derived data, where representational ambiguity and preprocessing variability significantly affect AI performance. Rather than introducing new predictive models, Arika operates upstream: formalizing representation semantics, alignment rules, and validation mechanisms that allow AI systems to reason over biological data more reliably."
+  },
+  {
+    "objectID": "Articles/index.html",
+    "href": "Articles/index.html",
+    "title": "Irreproducibility in Preclinical Research and Its Economic Impact on Biotech R&D",
+    "section": "",
+    "text": "Recent industry discussions estimate that irreproducible preclinical research contributes to more than 50 billion dollars in annual waste, with more than half of replication efforts failing (Staff 2026; Genomics 2024).\nThis problem is often framed as a documentation crisis, a reporting crisis, or a cultural crisis.\nBut reproducibility failures are not only about transparency.\nThey are about structure.\nScientific progress depends on reproducibility, yet preclinical research continues to suffer from persistent replication failures. A widely cited economic analysis estimated that roughly half of preclinical research may be irreproducible, contributing to approximately 28 billion dollars per year in wasted spending in the United States alone (Ioannidis 2026).\nSince that estimate, pharmaceutical R&D expenditures have grown substantially, now exceeding 80 billion dollars annually in the U.S. Adjusted for current spending levels, the implied economic burden likely exceeds 40 billion dollars domestically and approaches 90 billion dollars globally.\nEven if approximate, these figures point to a structural inefficiency at the heart of biomedical innovation: high-cost research programs operating on fragile experimental and analytical foundations.\nReproducibility failures at scale demonstrate how fragile preclinical inference pipelines are. Current safeguards focus primarily on statistical checks, not structural inference validity (Ioannidis 2026)."
+  },
+  {
+    "objectID": "Articles/intro/index.html",
+    "href": "Articles/intro/index.html",
+    "title": "Irreproducibility in Preclinical Research and Its Economic Impact on Biotech R&D",
+    "section": "",
+    "text": "Recent industry discussions estimate that irreproducible preclinical research contributes to more than 50 billion dollars in annual waste, with more than half of replication efforts failing (Staff 2026; Genomics 2024).\nThis problem is often framed as a documentation crisis, a reporting crisis, or a cultural crisis.\nBut reproducibility failures are not only about transparency.\nThey are about structure.\nScientific progress depends on reproducibility, yet preclinical research continues to suffer from persistent replication failures. A widely cited economic analysis estimated that roughly half of preclinical research may be irreproducible, contributing to approximately 28 billion dollars per year in wasted spending in the United States alone (Ioannidis 2026).\nSince that estimate, pharmaceutical R&D expenditures have grown substantially, now exceeding 80 billion dollars annually in the U.S. Adjusted for current spending levels, the implied economic burden likely exceeds 40 billion dollars domestically and approaches 90 billion dollars globally.\nEven if approximate, these figures point to a structural inefficiency at the heart of biomedical innovation: high-cost research programs operating on fragile experimental and analytical foundations.\nReproducibility failures at scale demonstrate how fragile preclinical inference pipelines are. Current safeguards focus primarily on statistical checks, not structural inference validity (Ioannidis 2026)."
+  },
+  {
+    "objectID": "Articles/intro/index.html#high-burn-environments-amplify-small-errors",
+    "href": "Articles/intro/index.html#high-burn-environments-amplify-small-errors",
+    "title": "Irreproducibility in Preclinical Research and Its Economic Impact on Biotech R&D",
+    "section": "High-burn environments amplify small errors",
+    "text": "High-burn environments amplify small errors\nModern biotech environments are capital intensive. Venture-backed companies commonly burn between 500 thousand and 1 million dollars per month. In such environments, even a two- to three-month misdirected program can translate into 200 thousand to over 1 million dollars in avoidable capital inefficiency before considering downstream consequences.\nThese inefficiencies rarely appear as dramatic collapse.\nThey appear as iteration:\nA target pursued longer than it should have been.\nA transcriptomic signal that required reinterpretation.\nA model retrained after discovering a design assumption was flawed.\nA preclinical direction quietly revised.\nIndividually, these events look routine. Collectively, they compound.\nThe economic risk is not that a single RNA analysis destroys a program. The risk is that fragile inference architecture multiplies small inefficiencies across high-burn environments."
+  },
+  {
+    "objectID": "Articles/intro/index.html#automation-does-not-eliminate-structural-risk",
+    "href": "Articles/intro/index.html#automation-does-not-eliminate-structural-risk",
+    "title": "Irreproducibility in Preclinical Research and Its Economic Impact on Biotech R&D",
+    "section": "Automation does not eliminate structural risk",
+    "text": "Automation does not eliminate structural risk\nAs automation becomes central to modern R&D, the stakes rise further. Increasing reliance on high-throughput assays, robotic screening platforms, digital PCR, cloud-based laboratory systems, and AI-assisted analysis has dramatically accelerated experimental throughput (Bio-Rad 2024; News 2023).\nAutomation reduces manual error and shortens timelines.\nBut it also amplifies structural weaknesses.\nWhen flawed study design or implicit analytical assumptions are embedded in automated pipelines, those weaknesses no longer affect a single experiment. They propagate across dozens or hundreds of runs.\nIn highly automated environments, fragile inference does not merely slow research; it scales inefficiency.\nAs biological workflows become increasingly automated and AI driven, inference errors scale silently.\nMost safeguards still focus on statistical validity rather than structural inference readiness (Ioannidis 2026).\nReproducibility can no longer depend solely on documentation standards or post hoc statistical checks. As biology becomes increasingly digital, validation must move upstream. It must be embedded in the architecture of study design and inference workflows themselves.\nThe reproducibility crisis is often described as a credibility problem.\nIt is also an economic one.\nAnd economics ultimately respond to architecture."
+  },
+  {
+    "objectID": "Articles/intro/index.html#alzheimers-disease-as-a-structural-case-study",
+    "href": "Articles/intro/index.html#alzheimers-disease-as-a-structural-case-study",
+    "title": "Irreproducibility in Preclinical Research and Its Economic Impact on Biotech R&D",
+    "section": "Alzheimer’s disease as a structural case study",
+    "text": "Alzheimer’s disease as a structural case study\nAlzheimer’s disease research offers a stark illustration of the economic and structural consequences of fragile scientific foundations. Despite billions in annual research investment, approximately 99 percent of Alzheimer’s clinical trials have historically failed to demonstrate meaningful benefit (News 2023).\nWhile many explanations focus on disease complexity or model limitations, irreproducibility in preclinical research may be an underappreciated driver of persistent failure. Investigations into foundational amyloid-beta studies have demonstrated how weaknesses in experimental validation can persist for years before scrutiny intensifies (News 2023).\nWhen foundational findings remain insufficiently replicated or stress-tested, entire research agendas may advance on unstable ground.\nThe result is not only scientific uncertainty, but prolonged economic expenditure and delayed therapeutic progress."
+  },
+  {
+    "objectID": "Articles/index.html#high-burn-environments-amplify-small-errors",
+    "href": "Articles/index.html#high-burn-environments-amplify-small-errors",
+    "title": "Irreproducibility in Preclinical Research and Its Economic Impact on Biotech R&D",
+    "section": "High-burn environments amplify small errors",
+    "text": "High-burn environments amplify small errors\nModern biotech environments are capital intensive. Venture-backed companies commonly burn between 500 thousand and 1 million dollars per month. In such environments, even a two- to three-month misdirected program can translate into 200 thousand to over 1 million dollars in avoidable capital inefficiency before considering downstream consequences.\nThese inefficiencies rarely appear as dramatic collapse.\nThey appear as iteration:\nA target pursued longer than it should have been.\nA transcriptomic signal that required reinterpretation.\nA model retrained after discovering a design assumption was flawed.\nA preclinical direction quietly revised.\nIndividually, these events look routine. Collectively, they compound.\nThe economic risk is not that a single RNA analysis destroys a program. The risk is that fragile inference architecture multiplies small inefficiencies across high-burn environments."
+  },
+  {
+    "objectID": "Articles/index.html#automation-does-not-eliminate-structural-risk",
+    "href": "Articles/index.html#automation-does-not-eliminate-structural-risk",
+    "title": "Irreproducibility in Preclinical Research and Its Economic Impact on Biotech R&D",
+    "section": "Automation does not eliminate structural risk",
+    "text": "Automation does not eliminate structural risk\nAs automation becomes central to modern R&D, the stakes rise further. Increasing reliance on high-throughput assays, robotic screening platforms, digital PCR, cloud-based laboratory systems, and AI-assisted analysis has dramatically accelerated experimental throughput (Bio-Rad 2024; News 2023).\nAutomation reduces manual error and shortens timelines.\nBut it also amplifies structural weaknesses.\nWhen flawed study design or implicit analytical assumptions are embedded in automated pipelines, those weaknesses no longer affect a single experiment. They propagate across dozens or hundreds of runs.\nIn highly automated environments, fragile inference does not merely slow research; it scales inefficiency.\nAs biological workflows become increasingly automated and AI driven, inference errors scale silently.\nMost safeguards still focus on statistical validity rather than structural inference readiness (Ioannidis 2026).\nReproducibility can no longer depend solely on documentation standards or post hoc statistical checks. As biology becomes increasingly digital, validation must move upstream. It must be embedded in the architecture of study design and inference workflows themselves.\nThe reproducibility crisis is often described as a credibility problem.\nIt is also an economic one.\nAnd economics ultimately respond to architecture."
+  },
+  {
+    "objectID": "Articles/index.html#alzheimers-disease-as-a-structural-case-study",
+    "href": "Articles/index.html#alzheimers-disease-as-a-structural-case-study",
+    "title": "Irreproducibility in Preclinical Research and Its Economic Impact on Biotech R&D",
+    "section": "Alzheimer’s disease as a structural case study",
+    "text": "Alzheimer’s disease as a structural case study\nAlzheimer’s disease research offers a stark illustration of the economic and structural consequences of fragile scientific foundations. Despite billions in annual research investment, approximately 99 percent of Alzheimer’s clinical trials have historically failed to demonstrate meaningful benefit (News 2023).\nWhile many explanations focus on disease complexity or model limitations, irreproducibility in preclinical research may be an underappreciated driver of persistent failure. Investigations into foundational amyloid-beta studies have demonstrated how weaknesses in experimental validation can persist for years before scrutiny intensifies (News 2023).\nWhen foundational findings remain insufficiently replicated or stress-tested, entire research agendas may advance on unstable ground.\nThe result is not only scientific uncertainty, but prolonged economic expenditure and delayed therapeutic progress."
+  },
+  {
+    "objectID": "Articles/index_temp.html",
+    "href": "Articles/index_temp.html",
+    "title": "Articles",
+    "section": "",
+    "text": "Irreproducibility in Preclinical Research and Its Economic Impact on Biotech R&D\n\n\n\n\n\nFeb 12, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/index_temp.html",
+    "href": "blog/index_temp.html",
+    "title": "Articles",
+    "section": "",
+    "text": "Irreproducibility in Preclinical Research and Its Economic Impact on Biotech R&D\n\n\n\n\n\nFeb 12, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Irreproducibility in Preclinical Research and Its Economic Impact on Biotech R&D",
+    "section": "",
+    "text": "Recent industry discussions estimate that irreproducible preclinical research contributes to more than 50 billion dollars in annual waste, with more than half of replication efforts failing (Staff 2026; Genomics 2024).\nThis problem is often framed as a documentation crisis, a reporting crisis, or a cultural crisis.\nBut reproducibility failures are not only about transparency.\nThey are about structure.\nScientific progress depends on reproducibility, yet preclinical research continues to suffer from persistent replication failures. A widely cited economic analysis estimated that roughly half of preclinical research may be irreproducible, contributing to approximately 28 billion dollars per year in wasted spending in the United States alone (Ioannidis 2026).\nSince that estimate, pharmaceutical R&D expenditures have grown substantially, now exceeding 80 billion dollars annually in the U.S. Adjusted for current spending levels, the implied economic burden likely exceeds 40 billion dollars domestically and approaches 90 billion dollars globally.\nEven if approximate, these figures point to a structural inefficiency at the heart of biomedical innovation: high-cost research programs operating on fragile experimental and analytical foundations.\nReproducibility failures at scale demonstrate how fragile preclinical inference pipelines are. Current safeguards focus primarily on statistical checks, not structural inference validity (Ioannidis 2026)."
+  },
+  {
+    "objectID": "blog/index.html#high-burn-environments-amplify-small-errors",
+    "href": "blog/index.html#high-burn-environments-amplify-small-errors",
+    "title": "Irreproducibility in Preclinical Research and Its Economic Impact on Biotech R&D",
+    "section": "High-burn environments amplify small errors",
+    "text": "High-burn environments amplify small errors\nModern biotech environments are capital intensive. Venture-backed companies commonly burn between 500 thousand and 1 million dollars per month. In such environments, even a two- to three-month misdirected program can translate into 200 thousand to over 1 million dollars in avoidable capital inefficiency before considering downstream consequences.\nThese inefficiencies rarely appear as dramatic collapse.\nThey appear as iteration:\nA target pursued longer than it should have been.\nA transcriptomic signal that required reinterpretation.\nA model retrained after discovering a design assumption was flawed.\nA preclinical direction quietly revised.\nIndividually, these events look routine. Collectively, they compound.\nThe economic risk is not that a single RNA analysis destroys a program. The risk is that fragile inference architecture multiplies small inefficiencies across high-burn environments."
+  },
+  {
+    "objectID": "blog/index.html#automation-does-not-eliminate-structural-risk",
+    "href": "blog/index.html#automation-does-not-eliminate-structural-risk",
+    "title": "Irreproducibility in Preclinical Research and Its Economic Impact on Biotech R&D",
+    "section": "Automation does not eliminate structural risk",
+    "text": "Automation does not eliminate structural risk\nAs automation becomes central to modern R&D, the stakes rise further. Increasing reliance on high-throughput assays, robotic screening platforms, digital PCR, cloud-based laboratory systems, and AI-assisted analysis has dramatically accelerated experimental throughput (Bio-Rad 2024; News 2023).\nAutomation reduces manual error and shortens timelines.\nBut it also amplifies structural weaknesses.\nWhen flawed study design or implicit analytical assumptions are embedded in automated pipelines, those weaknesses no longer affect a single experiment. They propagate across dozens or hundreds of runs.\nIn highly automated environments, fragile inference does not merely slow research; it scales inefficiency.\nAs biological workflows become increasingly automated and AI driven, inference errors scale silently.\nMost safeguards still focus on statistical validity rather than structural inference readiness (Ioannidis 2026).\nReproducibility can no longer depend solely on documentation standards or post hoc statistical checks. As biology becomes increasingly digital, validation must move upstream. It must be embedded in the architecture of study design and inference workflows themselves.\nThe reproducibility crisis is often described as a credibility problem.\nIt is also an economic one.\nAnd economics ultimately respond to architecture."
+  },
+  {
+    "objectID": "blog/index.html#alzheimers-disease-as-a-structural-case-study",
+    "href": "blog/index.html#alzheimers-disease-as-a-structural-case-study",
+    "title": "Irreproducibility in Preclinical Research and Its Economic Impact on Biotech R&D",
+    "section": "Alzheimer’s disease as a structural case study",
+    "text": "Alzheimer’s disease as a structural case study\nAlzheimer’s disease research offers a stark illustration of the economic and structural consequences of fragile scientific foundations. Despite billions in annual research investment, approximately 99 percent of Alzheimer’s clinical trials have historically failed to demonstrate meaningful benefit (News 2023).\nWhile many explanations focus on disease complexity or model limitations, irreproducibility in preclinical research may be an underappreciated driver of persistent failure. Investigations into foundational amyloid-beta studies have demonstrated how weaknesses in experimental validation can persist for years before scrutiny intensifies (News 2023).\nWhen foundational findings remain insufficiently replicated or stress-tested, entire research agendas may advance on unstable ground.\nThe result is not only scientific uncertainty, but prolonged economic expenditure and delayed therapeutic progress."
+  }
+]

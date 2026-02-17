@@ -1,0 +1,25 @@
+---
+title: "Articles"
+description: |
+  
+listing: 
+  contents: 
+    - "**/index.qmd"
+    - "**/index.markdown" 
+    - "**/index.md"
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, date, image]
+ # image-placeholder: sidebar.jpg
+  image-align: right
+citation: false
+toc: false
+comments: false
+format: 
+  html: 
+    page-layout: full
+title-block-banner: false
+---

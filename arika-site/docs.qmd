@@ -1,0 +1,9 @@
+---
+title: "Docs"
+---
+
+
+Supporting documents describing Arika’s infrastructure and system design.
+
+- [Executive summary (PDF)](assets/docs/Executive_summary.pdf){target="_blank"}
+- [Technical note (PDF)](assets/docs/technical-note.pdf){target="_blank"}
